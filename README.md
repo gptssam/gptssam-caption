@@ -1,39 +1,36 @@
-[English](README.en.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [한국어](README.ko.md)
+# GPTSSAM Caption · 지피티쌤체
 
-# GPTSSAM Caption · v0.4.0
+Korean caption fonts with curved terminals, derived from Gmarket Sans. Choose an approved release or the new nine-weight design preview below.
 
-Korean caption fonts with curved terminals, derived from **Gmarket Sans Bold**. **GPTSSAM Caption** is the primary design with more distinct curves; **GPTSSAM Caption Soft** uses gentler curves. Both are **Bold**; Soft is not a lighter weight.
+Gmarket Sans 기반의 자막용 파생 서체입니다. **기존 v0.4.0 정식판과 새 컴팩트 소프트 프리뷰를 별도로 제공합니다.**
 
-![Caption samples](preview.png)
+| Version | Family | Status | Documentation / 설명 | Download |
+|---|---|---|---|---|
+| **v0.4.0** | Caption Clear + Soft · Bold | Approved / 기존 정식판 | [한국어](https://github.com/gptssam/gptssam-caption/blob/v0.4.0/README.ko.md) · [English](https://github.com/gptssam/gptssam-caption/blob/v0.4.0/README.en.md) · [日本語](https://github.com/gptssam/gptssam-caption/blob/v0.4.0/README.ja.md) · [简体中文](https://github.com/gptssam/gptssam-caption/blob/v0.4.0/README.zh-CN.md) | [Release](https://github.com/gptssam/gptssam-caption/releases/tag/v0.4.0) |
+| **v0.5.0-preview.1** | Compact Soft · 9 weights | Design preview / 디자인 시안 | [한국어](versions/v0.5.0-preview.1/README.ko.md) · [English](versions/v0.5.0-preview.1/README.en.md) · [日本語](versions/v0.5.0-preview.1/README.ja.md) · [简体中文](versions/v0.5.0-preview.1/README.zh-CN.md) | [Pre-release](https://github.com/gptssam/gptssam-caption/releases/tag/v0.5.0-preview.1) |
 
-## Download and try
+## Compact Soft preview · 새 프리뷰
 
-| File | Variant | Style |
-|---|---|---|
-| [GPTSSAMCaption-Bold.ttf](GPTSSAMCaption-Bold.ttf) | Clear · primary | Bold |
-| [GPTSSAMCaptionSoft-Bold.ttf](GPTSSAMCaptionSoft-Bold.ttf) | Soft · alternative | Bold |
+![Nine weights](versions/v0.5.0-preview.1/preview.png)
 
+Narrower Hangul (95% body width, 0.88em advances), gently curved terminals, nine static TTF weights from Thin to Black. Each weight contains 11,172 precomposed Hangul syllables. Intermediate/extreme weights use outline offsets, not compatible-master interpolation; optical refinement remains.
 
-Open a TTF file, then select **Raw / Download raw file** on GitHub. To get the whole package, choose **Code → Download ZIP**. Extract the ZIP before installing a font. On macOS, open the TTF in Font Book and install it; on Windows, right-click the TTF and select Install. Restart your editor if the font list has not refreshed. Replace an older installation of the same family rather than keeping duplicate versions.
+한글의 폭과 배치 간격을 다듬고 약한 곡선을 유지했습니다. **프리뷰는 기존 정식판의 교체판이 아닙니다.** 복잡한 받침, 굵기 균형, I/l/1 구별과 실제 편집기 검수가 남아 있습니다. 기존 Bold의 출발 굵기와 가까운 새 굵기는 ExtraBold입니다.
 
-For an installation-free comparison, download the repository and open [font-test.html](font-test.html) locally. It embeds both fonts and works offline. Change the sentence, size, outline, spacing and background. The outline is a preview/editor effect, not part of the TTF.
+[Preview files and offline tester](versions/v0.5.0-preview.1/) · [제작 범위·한계](versions/v0.5.0-preview.1/README.ko.md).
 
-## Design and character coverage
+## Earlier versions remain available · 이전 설명 보존
 
-- 11,172 precomposed Hangul syllables, ASCII Latin letters, digits and punctuation are supported. Hangul designs, character mapping and widths are unchanged from v0.3.1.
-- v0.4.0 modifies the terminals of 24 Latin letters and eight digits: `ACEFGHILMPSTaefhilmnprst` / `12345679`.
-- Other glyphs retain their previous shapes. Closed forms `O`, `o`, `0`, `8` are retained; lowercase `l` has a short right tail in both variants.
-- Four-language documentation does not imply full Chinese or Japanese glyph coverage. Check your own text for unsupported characters.
-- [Full Latin/digit proof](glyph-proof.png) · [Exact release scope and font hashes](manifest.json).
+The v0.4.0 tag preserves its original README, translated guides and fonts at the original commit. Later versions have their own folder, tag and release notes. The top-level v0.4.0 font files and guides remain available for existing links.
+
+**v0.4.0 당시 설명글은 삭제되지 않습니다.** 위 버전 표에서 해당 설명을 누르거나, GitHub의 태그 선택에서 `v0.4.0`을 고르면 당시 파일과 설명을 볼 수 있습니다. 첫 화면은 버전별 안내판이며, 각 릴리스의 설명과 다운로드는 별도로 보관합니다.
+
+## Install / 설치
+
+Download a release ZIP, extract it and install the TTFs using Font Book (macOS) or right-click → Install (Windows). To test offline, open that version's `font-test.html`. Outlines are preview/editor effects, not part of the TTF. Translated documentation does not imply full Chinese/Japanese glyph coverage.
+
+릴리스 ZIP을 풀고 TTF를 설치하거나 해당 버전의 `font-test.html`을 브라우저에서 여세요. 편집기에 나타나지 않으면 다시 실행하세요.
 
 ## License
 
-Personal and commercial use, modification and redistribution are allowed under the included [LICENSE.txt](LICENSE.txt). No separate advance permission is required when its conditions are met. Videos, ads, paid courses and printed works made with the font do not have to be released for free.
-
-Keep the original copyright notice and complete license when redistributing the font; modified fonts remain under the same license and must follow the naming requirements. Do not sell the font by itself or imply Gmarket endorsement. Original Gmarket Sans copyright: **eBay Korea Co., Ltd.** This is an independent derivative, not an official Gmarket collaboration.
-
-The bundled original text, including Gmarket's additional clause 6 about promotional use of images of works and the ability to express refusal, is preserved unchanged. That clause is not a requirement to obtain permission before modification or redistribution. This README is an explanatory summary; the complete terms are in LICENSE.txt.
-
-## Release
-
-Approved on 2026-10-26. The final files preserve the approved Clear/Soft preview outlines; final family names and version metadata replace the preview names. [Change log](CHANGELOG.md). No claim is made that every glyph was manually reviewed or that installation was tested in every editor.
+Original copyright: eBay Korea Co., Ltd. Full terms: [LICENSE.txt](LICENSE.txt). Keep the original copyright and complete license when redistributing. This is an independent derivative, not an official Gmarket collaboration or endorsement.
