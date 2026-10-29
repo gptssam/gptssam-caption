@@ -1,0 +1,57 @@
+{
+  "version": "0.5.0-preview.1",
+  "date": "2026-10-29",
+  "family": "GPTSSAM Compact Soft Preview",
+  "status": "design preview; not a replacement for v0.4.0",
+  "hangul_syllables_per_weight": 11172,
+  "hangul_x_scale": 0.95,
+  "hangul_advance_em": 0.88,
+  "basis": "Gmarket Sans Light, Medium, Bold; topology-guarded outline offsets, not compatible-master interpolation",
+  "files": [
+    {
+      "file": "GPTSSAMCompactSoftPreview-Thin.ttf",
+      "weight": 100,
+      "sha256": "ff2c71d1db89e392634fa171e2d3c0676ec4b2ee5c466ba869e84cce0fb2d5bc"
+    },
+    {
+      "file": "GPTSSAMCompactSoftPreview-ExtraLight.ttf",
+      "weight": 200,
+      "sha256": "dd22892a75fac36a7c367ae7b2a39fc454d6a96163861377220cbc43bd5dd642"
+    },
+    {
+      "file": "GPTSSAMCompactSoftPreview-Light.ttf",
+      "weight": 300,
+      "sha256": "900c58abaa5e7c1d440d80efdc3adbef10beedd4e87657bcaffe1196d425ab74"
+    },
+    {
+      "file": "GPTSSAMCompactSoftPreview-Regular.ttf",
+      "weight": 400,
+      "sha256": "37267251567e4a58e92061b9589d5c6ba92db49be34358a30583d3aa92d95afc"
+    },
+    {
+      "file": "GPTSSAMCompactSoftPreview-Medium.ttf",
+      "weight": 500,
+      "sha256": "b6f349c31160f5e3da17aa03b4866aac9c0f4a4f3c42894d8f9150fcf2f37281"
+    },
+    {
+      "file": "GPTSSAMCompactSoftPreview-SemiBold.ttf",
+      "weight": 600,
+      "sha256": "e61944132aac1cbe79ef3e4a4ae1203e1427ca6c31665d5c0a4c3293500ea993"
+    },
+    {
+      "file": "GPTSSAMCompactSoftPreview-Bold.ttf",
+      "weight": 700,
+      "sha256": "773d84b6e3c296e8fd08e72bec3c73375acfdcc44d23f691552efde84afc3e18"
+    },
+    {
+      "file": "GPTSSAMCompactSoftPreview-ExtraBold.ttf",
+      "weight": 800,
+      "sha256": "1de175a25b5e59495e940de675e516b10a9720c250dcd012784913a55aaeeb7a"
+    },
+    {
+      "file": "GPTSSAMCompactSoftPreview-Black.ttf",
+      "weight": 900,
+      "sha256": "c3cc6ad931d7be1c87f271d003351ece4be86a6c42e372e4e5c4482a0370b27c"
+    }
+  ]
+}

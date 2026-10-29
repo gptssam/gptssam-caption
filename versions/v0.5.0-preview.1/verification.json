@@ -1,0 +1,157 @@
+{
+  "fonts": [
+    {
+      "weight": 100,
+      "hangul_nonempty": 11172,
+      "hangul_advance": 880,
+      "units_per_em": 1000,
+      "cmap_equal_to_master": true,
+      "topology_changes_vs_master": 0,
+      "source_credits_preserved": true,
+      "bounds": [
+        -23,
+        -251,
+        1065,
+        892
+      ],
+      "font_bytes": 2648184
+    },
+    {
+      "weight": 200,
+      "hangul_nonempty": 11172,
+      "hangul_advance": 880,
+      "units_per_em": 1000,
+      "cmap_equal_to_master": true,
+      "topology_changes_vs_master": 0,
+      "source_credits_preserved": true,
+      "bounds": [
+        -30,
+        -258,
+        1074,
+        899
+      ],
+      "font_bytes": 2655340
+    },
+    {
+      "weight": 300,
+      "hangul_nonempty": 11172,
+      "hangul_advance": 880,
+      "units_per_em": 1000,
+      "cmap_equal_to_master": true,
+      "topology_changes_vs_master": 0,
+      "source_credits_preserved": true,
+      "bounds": [
+        -38,
+        -266,
+        1085,
+        907
+      ],
+      "font_bytes": 2467168
+    },
+    {
+      "weight": 400,
+      "hangul_nonempty": 11172,
+      "hangul_advance": 880,
+      "units_per_em": 1000,
+      "cmap_equal_to_master": true,
+      "topology_changes_vs_master": 0,
+      "source_credits_preserved": true,
+      "bounds": [
+        -52,
+        -280,
+        1104,
+        921
+      ],
+      "font_bytes": 2696960
+    },
+    {
+      "weight": 500,
+      "hangul_nonempty": 11172,
+      "hangul_advance": 880,
+      "units_per_em": 1000,
+      "cmap_equal_to_master": true,
+      "topology_changes_vs_master": 0,
+      "source_credits_preserved": true,
+      "bounds": [
+        -40,
+        -273,
+        1112,
+        914
+      ],
+      "font_bytes": 2414408
+    },
+    {
+      "weight": 600,
+      "hangul_nonempty": 11172,
+      "hangul_advance": 880,
+      "units_per_em": 1000,
+      "cmap_equal_to_master": true,
+      "topology_changes_vs_master": 0,
+      "source_credits_preserved": true,
+      "bounds": [
+        -46,
+        -279,
+        1120,
+        920
+      ],
+      "font_bytes": 2655040
+    },
+    {
+      "weight": 700,
+      "hangul_nonempty": 11172,
+      "hangul_advance": 880,
+      "units_per_em": 1000,
+      "cmap_equal_to_master": true,
+      "topology_changes_vs_master": 0,
+      "source_credits_preserved": true,
+      "bounds": [
+        -47,
+        -273,
+        1133,
+        926
+      ],
+      "font_bytes": 2617324
+    },
+    {
+      "weight": 800,
+      "hangul_nonempty": 11172,
+      "hangul_advance": 880,
+      "units_per_em": 1000,
+      "cmap_equal_to_master": true,
+      "topology_changes_vs_master": 0,
+      "source_credits_preserved": true,
+      "bounds": [
+        -55,
+        -281,
+        1144,
+        934
+      ],
+      "font_bytes": 2384436
+    },
+    {
+      "weight": 900,
+      "hangul_nonempty": 11172,
+      "hangul_advance": 880,
+      "units_per_em": 1000,
+      "cmap_equal_to_master": true,
+      "topology_changes_vs_master": 0,
+      "source_credits_preserved": true,
+      "bounds": [
+        -68,
+        -293,
+        1160,
+        946
+      ],
+      "font_bytes": 2616756
+    }
+  ],
+  "representative_ink_area_monotonic": true,
+  "representative_ink_area_regressions": {},
+  "representative_chars": "구규기가고교값꽃읽밖뿔뭘까따빠싸짜지피티쌤체AI2026",
+  "all_hangul_ink_area_decreases_over_0_1_percent": [],
+  "limits": [
+    "Automated topology does not guarantee aesthetic quality or all editor rendering.",
+    "Offset-adjusted intermediate weights have local exceptions recorded in the manifest.",
+    "Not a variable font or interpolatable source-master family."
+  ]
+}
